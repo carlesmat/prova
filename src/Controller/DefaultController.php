@@ -13,7 +13,7 @@ class DefaultController
 
     public function index()
     {
-	return new Response('<html><body>Hola que tal. Com estàs ?</body></html>'
+	return new Response('<html><body>Hola que tal. Release ?</body></html>'
         );
     }
 }
