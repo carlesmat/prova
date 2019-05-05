@@ -91,6 +91,10 @@ return array(
     'Doctrine\\Bundle\\MigrationsBundle\\' => array($vendorDir . '/doctrine/doctrine-migrations-bundle'),
     'Doctrine\\Bundle\\DoctrineCacheBundle\\' => array($vendorDir . '/doctrine/doctrine-cache-bundle'),
     'Doctrine\\Bundle\\DoctrineBundle\\' => array($vendorDir . '/doctrine/doctrine-bundle'),
+    'Deployer\\Component\\Version\\' => array($vendorDir . '/deployer/phar-update/src/Version'),
+    'Deployer\\Component\\PharUpdate\\' => array($vendorDir . '/deployer/phar-update/src'),
+    'Deployer\\Component\\PHPUnit\\' => array($vendorDir . '/deployer/phar-update/src/PHPUnit'),
+    'Deployer\\' => array($vendorDir . '/deployer/deployer/src'),
     'App\\Tests\\' => array($baseDir . '/tests'),
     'App\\' => array($baseDir . '/src'),
 );

@@ -14,6 +14,8 @@ class ComposerStaticInitbe57f947343bd0054a56494e5f754e86
         '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        'eee1afd8f38c52a8d46f7c5bbb92afdd' => __DIR__ . '/..' . '/deployer/deployer/src/Support/helpers.php',
+        '135133ad0ca20ef21cc262b30da9a000' => __DIR__ . '/..' . '/deployer/deployer/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -131,6 +133,10 @@ class ComposerStaticInitbe57f947343bd0054a56494e5f754e86
             'Doctrine\\Bundle\\MigrationsBundle\\' => 33,
             'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 36,
             'Doctrine\\Bundle\\DoctrineBundle\\' => 31,
+            'Deployer\\Component\\Version\\' => 27,
+            'Deployer\\Component\\PharUpdate\\' => 30,
+            'Deployer\\Component\\PHPUnit\\' => 27,
+            'Deployer\\' => 9,
         ),
         'A' => 
         array (
@@ -485,6 +491,22 @@ class ComposerStaticInitbe57f947343bd0054a56494e5f754e86
         array (
             0 => __DIR__ . '/..' . '/doctrine/doctrine-bundle',
         ),
+        'Deployer\\Component\\Version\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/deployer/phar-update/src/Version',
+        ),
+        'Deployer\\Component\\PharUpdate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/deployer/phar-update/src',
+        ),
+        'Deployer\\Component\\PHPUnit\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/deployer/phar-update/src/PHPUnit',
+        ),
+        'Deployer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/deployer/deployer/src',
+        ),
         'App\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
@@ -508,6 +530,10 @@ class ComposerStaticInitbe57f947343bd0054a56494e5f754e86
             'ProxyManager\\' => 
             array (
                 0 => __DIR__ . '/..' . '/ocramius/proxy-manager/src',
+            ),
+            'Pimple' => 
+            array (
+                0 => __DIR__ . '/..' . '/pimple/pimple/src',
             ),
         ),
         'D' => 
